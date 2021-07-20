@@ -1,0 +1,26 @@
+AUTHENTIFICATION
+/api/user/register ==> post
+/api/user/login ==> post
+/api/user/logout ==> get
+
+
+ACTION USER
+/api/user/    ==> get : avoir tout les utilisateur
+/api/user/:id ==> get : cherche une utilisateur specifique 
+/api/user/:id ==> put : mis a jour de utilisateur
+/api/user/:id ==> delete : supprimer une utilisateur
+
+
+ACTION VOITURE
+/api/voiture/     ==> get : voir tout les voiture disponible
+/api/voiture/     ==> post : publiez une voiture
+/api/voiture/:id  ==> get : voire une voiture avec commentaire
+/api/voiture/:id  ==> delete : supprimez une post de voiture
+/api/voiture/:id  ==> patch : modifier l'info de voiture
+
+
+
+ACTION COMMENTAIRE
+/api/comment/:id   ==> post : crerr un commentaire sur une voiture 
+/api/comment/:id   ==> patch : modifier un commentaire sur une voiture
+/api/comment/:id   ==> delete : supprimer une commentaire sur une voiture

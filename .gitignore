@@ -1,0 +1,9 @@
+/node_modules
+/client/node_modules
+/config/.env
+/client/public/uploads/posts/*
+/client/public/uploads/profil/*
+/client/.env
+
+!/client/public/uploads/posts/.gitkeep 
+!/client/public/uploads/profil/.gitkeep 
